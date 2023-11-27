@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* keep the content in the middle of the window */
+
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+}
+/* change the font family and size of the paragraph */
+.col-sm p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: .9rem;
+}
+/* change font family of the headers */
+.col-sm h1{
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+/* set padding to the divs  */
+.col-sm {
+    padding:2rem 2rem;
+}
+/* set the logo lil above the content */
+.pagelogo{
+margin-bottom: 2rem;
+}
+
+/* styles for learn more button */
+.learnmore-btn{
+    border-radius: 3rem;
+    padding: .5rem 1.5rem;
+    border: none;
+}
+
+/* setting background of sedan, color  */
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+    color: #fff;
+}
+/* styling of sedanlogo(the learn more button for sedan) */
+.sedanslogo{
+    color: hsl(31, 77%, 52%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: .8rem;
+}
+/* styling background of suv */
+.suv{
+background-color: hsl(184, 100%, 22%);
+color: #fff;
+}
+
+/* styling of suvlogo(the learn more button for suv) */
+.suvlogo{
+    color: hsl(184, 100%, 22%);
+    background-color: #fff;
+    font-size: .8rem;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    color: #fff;
+}
+/* styling luxury logo (the learn more button for luxury car) */
+
+.luxurylogo{
+    background-color: #fff;
+    color: hsl(179, 100%, 13%);
+    font-family:'Lexend Deca', sans-serif;
+    font-size: .8rem;
+}
+button{
+    margin-top: 2rem;
+}
+button:focus{
+    background-color: transparent;
+    color: #fff;
+    border:1px solid #fff;
+}
+
+@media (min-width:1107px) {
+    .container{
+        max-width: 70%;
+        margin: 5rem auto;
+    }
+}
