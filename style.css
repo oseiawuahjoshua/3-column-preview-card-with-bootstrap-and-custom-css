@@ -82,7 +82,17 @@ button:focus{
 
 @media (min-width:1107px) {
     .container{
-        max-width: 70%;
+        max-width: 60%;
         margin: 5rem auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .col-sm{
+        /* max-width: 50%; */
+        border: 1px solid red;
+        align-items: center;
+        justify-content: center;
     }
 }
